@@ -34,12 +34,12 @@ header{
 .search-bar button {
     padding: 8px 12px;
     border: none;
-    background-color: var(--rosa-claro)
+    background-color: var(--roxo)
     color: black;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: var(--rosa-claro);
+    background-color: var(--roxo);
 }
