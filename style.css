@@ -34,7 +34,7 @@ header{
 .search-bar button {
     padding: 8px 12px;
     border: none;
-    background-color: var(--rosa-médio)
+    background-color: var(--rosa-claro)
     color: black;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
