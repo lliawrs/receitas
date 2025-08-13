@@ -43,7 +43,7 @@ header{
 .search-bar button:hover {
     background-color: var(--rosa-claro);
 }
-.container {
+.mat-container {
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -58,3 +58,96 @@ header{
     border-radius: 8px;
      aspect-ratio: 1 / 1;
 }
+.conteudo {
+    background-color: var(--verde-médio);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    min-width: 280px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.conteudo:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--verde-claro);
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+}
+
+.conteudo p {
+    line-height: 1.6;
+    color: var(--preto);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.conteudo ul {
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+
+.conteudo ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--azul-claro);
+    transition: transform 0.5s ease;
+    color: var(--preto);
+}
+
+.conteudo ul li:hover {
+    transform: translateX(10px);
+    color: var(--verde-claro);
+}
+
+.home {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home a {
+    font-size: 2rem;
+    color: var(--verde-médio);
+}
+
+.conteudo ul li .block {
+    display: none;
+}
+
+.conteudo ul li:hover .block {
+    display: block;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
+
+.opacidade {
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1.5s ease, max-height 1.5s ease;
+    color: var(--marinho);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo ul li:hover .opacidade {
+    opacity: 1;
+    max-height: 320px;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
+    footer{
+          margin-top: 350px;
+    background-color: #629584;
+    padding: 20px 0;
+    min-height: 100px;
+    }
